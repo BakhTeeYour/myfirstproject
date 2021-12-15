@@ -27,7 +27,7 @@ function Post({ post }) {
                         <span className="Post-likes-count">{post.likes}</span>
                     <Tags/>
                     <button>
-                    {post.tags[0]}
+                    {post?.tags[0]}
                     </button>
                     </span>
                 </footer>
